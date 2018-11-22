@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_first_application"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+     <uses-permission
+          android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission
+          android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission  android:name="android.permission.INTERNET"/> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="control.Login_activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="control.Home_activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="control.Search_activity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="control.Patient_activity"
+            android:label="@string/activity_patient" >
+        </activity>
+        <activity
+            android:name="control.Treatement_activity"
+            android:label="@string/treatement_activity" >
+        </activity>
+        <activity
+            android:name="fragments.PatientDetailsFrag_activity"
+            android:label="@string/patient_details_frag" >
+        </activity>
+        <activity
+            android:name="fragments.PatientTreatements_activity"
+            android:label="@string/patient_treatements" >
+        </activity>
+        <activity
+            android:name="fragments.NewTreatement_activity"
+            android:label="@string/title_activity_new_treatement_activity" >
+        </activity>
+        <activity
+            android:name="control.DisplayTreatement_activity"
+            android:label="@string/title_activity_display_treatement_activity" >
+        </activity>
+        <activity android:name="model.datasource.AndroidDatabaseManager"  
+                  android:label = "@string/app_name"/>
+    </application>
+
+</manifest>

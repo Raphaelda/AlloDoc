@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="app_name">AlloDoc</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="id">ID</string>
+    <string name="next">NEXT</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textView1_HomePage">create a new consultation</string>
+
+    <string-array name="Search_Choice">
+        <item>Doctor</item>
+        <item>Patient</item>
+        <item>Medicament</item>
+        <item>Treatement</item>
+    </string-array>
+
+    <string name="textview">TextView</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="title_activity_search">search_activity</string>
+    <string name="activity_patient">Patient</string>
+    <string name="large_text">Large Text</string>
+    <string name="treatement_activity">Treatement</string>
+    <string name="patient_details_frag">PatientDetails</string>
+    <string name="patient_treatements">PatientTreatements</string>
+    <string name="title_activity_new_treatement_activity">NewTreatement</string>
+    <string name="title_activity_display_treatement_activity">DisplayTreatement</string>
+  	<string name="add">ADD</string>
+    <string name="drugs">Drugs</string>
+    <string name="prescription">Prescription</string>
+    <string name="report">Report</string>
+    <string name="confirm">Confirm</string>
+    <string name="quantity">QTY</string>
+      <string name="enteradrug">Enter a Drug</string>
+      <string name="photo_of_the_patient">Photo of the patient</string>
+      <string name="first_nname_">First \nName :</string>
+      <string name="last_nname_">Last \nName:</string>
+      <string name="sex_">Sex:</string>
+      <string name="age_">Age :</string>
+      <string name="weigth_">Weigth :</string>
+      <string name="heigth_">Heigth :</string>
+      <string name="blood_group_">Blood Group :</string>
+      <string name="postal_code_">Postal Code :</string>
+      <string name="mail_">Mail :</string>
+      <string name="text">Text</string>
+      <string name="telephone_">Telephone :</string>
+      <string name="small_text">Small Text</string>
+      <string name="city_">City :</string>
+      <string name="adress_">Adress :</string>
+    
+</resources>
